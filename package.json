@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/majordesigner/NewTechSample/issues"
   },
-  "homepage": "https://github.com/majordesigner/NewTechSample"
+  "homepage": "https://github.com/majordesigner/NewTechSample",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }
