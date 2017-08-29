@@ -1,0 +1,50 @@
+﻿@import "normalize.less";
+@import "major-grids.less";
+@import "variables.less";
+@import "mixins.less";
+
+body {
+    .mpreset;
+    color:@text-color;
+    background-color:@bg-color;
+}
+
+#wrapper {.box-float; .box-sizing; background-color:@white; height:100%;}
+header {
+    .box-float; 
+    .box-sizing; 
+    background-color:@orange; 
+    height:200px;
+    div {height:100px;}
+    .logo { background-color:@green;}
+    .top-nav {background-color:@turquoise;}
+    .user-area {background-color:@red;}
+    .main-nav {background-color:@blue;}
+}
+#container {.box-float; .box-sizing; background-color:@green;}
+
+footer {.box-float; .box-sizing; background-color:@blue; height:400px;}
+footer .foo-nav {
+    ul {
+        li {
+            float:left;
+            padding:0 10px;
+            height:40px;
+            list-style:none;
+            width:100%;
+            a {
+                display:block;
+                line-height:40px;
+                font-weight:400;
+                font-size:14px;
+                letter-spacing:0.1em;
+                text-decoration:none;
+                color:@yellow;
+                &:hover { 
+                    color:@orange;
+                    text-decoration:underline;
+                }
+            }
+        } 
+    }
+}
