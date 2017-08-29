@@ -4,11 +4,70 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
+    @*
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
+    *@
+    <link rel="stylesheet" type="text/css" href="~/Content/css/views/general.css" />
 </head>
 <body>
+    <div id="wrapper">
+        <header>
+            <div class="container">
+                <div class="perc4 logo"></div>
+                <div class="perc4 top-nav"></div>
+                <div class="perc4 user-area"></div>
+                <div class="perc12 main-nav"></div>
+            </div>
+        </header>
+
+        <div id="container">
+            @RenderBody()
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="perc3 foo-nav">
+                    <ul>
+                        <li><a href="#" title="">Başlık 1</a></li>
+                        <li><a href="#" title="">Başlık 2</a></li>
+                        <li><a href="#" title="">Başlık 3</a></li>
+                        <li><a href="#" title="">Başlık 4</a></li>
+                        <li><a href="#" title="">Başlık 5</a></li>
+                    </ul>
+                </div>
+                <div class="perc3 foo-nav">
+                    <ul>
+                        <li><a href="#" title="">Başlık 6</a></li>
+                        <li><a href="#" title="">Başlık 7</a></li>
+                        <li><a href="#" title="">Başlık 8</a></li>
+                        <li><a href="#" title="">Başlık 9</a></li>
+                        <li><a href="#" title="">Başlık 10</a></li>
+                    </ul>
+                </div>
+                <div class="perc3 foo-nav">
+                    <ul>
+                        <li><a href="#" title="">Başlık 11</a></li>
+                        <li><a href="#" title="">Başlık 12</a></li>
+                        <li><a href="#" title="">Başlık 13</a></li>
+                        <li><a href="#" title="">Başlık 14</a></li>
+                        <li><a href="#" title="">Başlık 15</a></li>
+                    </ul>
+                </div> 
+                <div class="perc3 foo-nav">
+                    <ul>
+                        <li><a href="#" title="">Başlık 11</a></li>
+                        <li><a href="#" title="">Başlık 12</a></li>
+                        <li><a href="#" title="">Başlık 13</a></li>
+                        <li><a href="#" title="">Başlık 14</a></li>
+                        <li><a href="#" title="">Başlık 15</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    @*
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -41,5 +100,6 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+        *@
 </body>
 </html>

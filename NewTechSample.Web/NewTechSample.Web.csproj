@@ -210,10 +210,14 @@
   <ItemGroup>
     <Content Include="Content\css\base\bootstrap.css" />
     <Content Include="Content\css\base\bootstrap.min.css" />
+    <None Include="Content\css\views\major-grids.less" />
+    <Content Include="Content\css\views\mixins.less" />
+    <None Include="Content\css\views\normalize.less" />
     <Content Include="favicon.ico" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\css\views\Site.css" />
+    <Content Include="gruntfile.js" />
     <Content Include="Scripts\system\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\system\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\system\bootstrap.js" />
@@ -221,6 +225,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\css\views\general.less" />
+    <Content Include="Content\css\views\variables.less" />
     <None Include="Scripts\system\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\system\jquery-1.10.2.js" />
     <Content Include="Scripts\system\jquery-1.10.2.min.js" />
