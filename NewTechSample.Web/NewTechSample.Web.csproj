@@ -239,6 +239,7 @@
     <Content Include="Scripts\system\respond.js" />
     <Content Include="Scripts\system\respond.min.js" />
     <Content Include="Scripts\system\_references.js" />
+    <Content Include="Scripts\views\general.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -278,7 +279,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Content\img\" />
     <Folder Include="Scripts\plugins\" />
-    <Folder Include="Scripts\views\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
